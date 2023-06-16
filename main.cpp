@@ -13,12 +13,12 @@ int main() {
 	cin >> flag;
 	if (flag == 1)//人人
 	{
-//		ChessBoard();	//启动棋盘
+		ChessBoard();	//启动棋盘
 		Choose();	//双方落子
 	}
 	else if (flag == 2)//人机
 	{
-//		ChessBoard();	//启动棋盘
+		ChessBoard();	//启动棋盘
 		Choose1();	//双方落子
 	}
 	else
